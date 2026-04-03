@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Configure the custom font family */
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+/* Enable class-based dark mode (since our app toggles the .dark class on the html tag) */
+@variant dark (&:where(.dark, .dark *));
+
+/* Smooth transition for theme toggling */
+html {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Add this anywhere in your index.css */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px; /* Makes the horizontal scrollbar thin */
+  width: 0px; /* Completely hides the vertical scrollbar just in case */
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0; /* Light gray */
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #cbd5e1; /* Darker gray on hover */
+}
