@@ -1,10 +1,6 @@
-# Finance Dashboard UI
+# 🚀 Finance Dashboard UI
 
 A clean, responsive, and interactive frontend dashboard for users to track, manage, and understand their financial activity. This project was built to demonstrate modern frontend development practices, UI/UX design thinking, and effective state management.
-
-## 🚀 Live Demo
-
-*(Insert link to your deployed application here, e.g., Vercel, Netlify, or GitHub Pages)*
 
 ## ✨ Features
 
@@ -62,7 +58,7 @@ Make sure you have Node.js installed on your machine.
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/yourusername/finance-dashboard.git](https://github.com/yourusername/finance-dashboard.git)
+   git clone https://github.com/KunjYadav/finance-dashboard.git
    ```
 
 2. Navigate into the project directory:
@@ -109,4 +105,3 @@ To ensure the dashboard looks populated upon first load, a mock dataset is loade
 
 Kunj Yadav - [kunj.yadav555@gmail.com](mailto:kunj.yadav555@gmail.com)
 Project Link: [https://github.com/KunjYadav/finance-dashboard](https://www.google.com/search?q=https://github.com/KunjYadav/finance-dashboard)
-# finance-dashboard
